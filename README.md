@@ -14,22 +14,22 @@ If you install any applications, you have to manually add them to rofi applicati
 
 KeyBinds:
 ----------------------------------------
-mod = windows-key
+- mod = windows-key
 
-mod+shfit = terminal
-mod+r = applications 
-mod+s = powermenu
+- mod+shfit = terminal
+- mod+r = applications 
+- mod+s = powermenu
 
-mod+q = quit window
+- mod+q = quit window
 
-mod+shift+j = move focused window left
-mod+shift+k = move focused window up
-mod+shift+l = move focused window down
-mod+shift+; = move focused window right
+- mod+shift+j = move focused window left
+- mod+shift+k = move focused window up
+- mod+shift+l = move focused window down
+- mod+shift+; = move focused window right
 
-mod+j = resize window left
-mod+k = resize window up
-mod+l = resize window down
-mod+; = resize window right
+- mod+j = resize window left
+- mod+k = resize window up
+- mod+l = resize window down
+- mod+; = resize window right
 
 mod+shift+r = restart i3
