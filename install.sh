@@ -1,6 +1,8 @@
 #!/bin/bash
 
 cd ~/
+yes | sudo rm -rd Darthi3wmdotfiles plymouth-themes
+yes | sudo rm -rf /var/lib/pacman/db.lck
 
 echo "Updating"
 echo ""
