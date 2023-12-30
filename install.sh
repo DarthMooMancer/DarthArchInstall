@@ -9,7 +9,7 @@ yes | sudo pacman -Syu
 echo ""
 echo "Installing Main Packages"
 echo ""
-yes | sudo pacman -S firefox ly ranger htop plymouth xorg-auth xorg-server
+yes | sudo pacman -S firefox ly ranger htop plymouth xorg-server
 
 echo ""
 echo "Cloning and Setting up Github repository for Plymouth "
