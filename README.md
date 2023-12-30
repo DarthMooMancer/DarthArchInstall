@@ -32,4 +32,4 @@ KeyBinds:
 - mod+l = resize window down
 - mod+; = resize window right
 
-mod+shift+r = restart i3
+- mod+shift+r = restart i3
