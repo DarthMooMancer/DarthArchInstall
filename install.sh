@@ -62,6 +62,13 @@ sudo rm -rd yay
 yay -S sublime-text-4
 
 echo ""
+echo "Changing Grub"
+echo ""
+
+sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 splash"/' /etc/default/grub
+sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 quiet"/' /etc/default/grub
+
+echo ""
 echo "Finished! Please reboot me, by typing <sudo reboot>"
 echo "Keybinds on my github: https://github.com/DarthMooMancer/DarthArchInstall"
 
