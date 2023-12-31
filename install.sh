@@ -69,6 +69,12 @@ sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 splash"/' /etc/default/gru
 sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 quiet"/' /etc/default/grub
 
 echo ""
+
+cd 
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+echo "Oh-My-Zsh Installed"
 echo "Finished! Please reboot me, by typing <sudo reboot>"
 echo "Keybinds on my github: https://github.com/DarthMooMancer/DarthArchInstall"
 
