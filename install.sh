@@ -66,7 +66,7 @@ echo "Changing Grub"
 echo ""
 
 sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 splash"/' /etc/default/grub
-sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=.*\)"$/\1 quiet"/' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo ""
 
